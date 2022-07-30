@@ -6,7 +6,7 @@ import store from "./store";
 axios.defaults.headers.common['Authorization'];
 
 const axiosClient = axios.create({
-  baseURL: `https://online-survey-laravel-vue-tailwindcss.000webhostapp.com/api`
+  baseURL: `http://online-survey-laravel-vue-tailwindcss.000webhostapp.com/api`
   
 });
 
